@@ -58,7 +58,7 @@ if ( have_posts() ) {
              <p> <span> <?php the_field('horaire_8');?> </span> <?php the_field('conf_8');?></p>
              <p> <span> <?php the_field('horaire_9');?></span> <?php the_field('conf_9');?></p>
                  </div>
-               <button>S'<?php the_field('register_link_3');?></button>
+               <button><?php the_field('register_link_3');?></button>
         </div>
     </section>
 
@@ -102,7 +102,7 @@ if ( have_posts() ) {
 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/buyer-persona-1.jpg" alt="" style="background-image:cover;">
                   <p><?php the_field('nom6');?></p>
                  <span><?php the_field('decris6');?></span>
-                 <button><?php the_field('bouton6');?></button>6</div>
+                 <button><?php the_field('bouton6');?></button></div>
                  </div>
     </div>
 
@@ -117,13 +117,16 @@ if ( have_posts() ) {
 
     <section class="section-6">
          <div class="part6">
-                 <h1>Information Pratique</h1>
+
+                 <h1><?php the_field('titre_6');?></h1>
+                 <div id="fond">
                    <img style="background-size: cover;
     width: 100%;" class="img2" src="<?php echo get_template_directory_uri(); ?>/assets/img/lieu.png">
-             <div class="CarreVert">
-             <h2>Square Brussels<br>Mont des Arts<br>1000 Bruxelles<br>Belgique</h2>
-              <h2>Le 03.12.2019<br>de 8h30 à 12h30</h2>
-              <h2>Healthy<br>Walking Dinner</h2>
+  </div>
+             <div id="CarreVert">
+             <h2><?php the_field('text1_6');?></h2>
+              <h2><?php the_field('text2_6');?></h2>
+              <h2><?php the_field('text3_6');?></h2>
                  </div>
 
     </div>
@@ -131,8 +134,68 @@ if ( have_posts() ) {
 
 
 
+        <section class="section-7">
+             <div class="part7">
+
+                     <h1><?php the_field('titre_7');?></h1>
+
+                     <div class="parent">
+                     <div id="div1"> <img class="image" style="background-size:cover; width:100%;" src="<?php echo get_template_directory_uri(); ?>/assets/img/chat1.jpg"><p><?php the_field('text1_7');?></p></div>
+
+                     <div id="div2"> <img class="image" style="background-size:cover; width:100%; "src="<?php echo get_template_directory_uri(); ?>/assets/img/chat2.jpg"><p><?php the_field('text2_7');?><p> </div>
+
+                     <div id="div3">  <img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat3.jpg"> </div>
+
+                     <div id="div4"> <p><?php the_field('text3_7');?></p> </div>
+
+                     <div id="div5"> <img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat4.jpg"> </div>
+
+                     <div id="div6"> <p><?php the_field('text4_7');?></p></div>
+
+                     <div id="div7"> <img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat5.jpg"></div>
+
+                     <div id="div8"> <p><?php the_field('text5_7');?></p></div>
+
+                     <div id="div9"><img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat6.jpg"> </div>
+
+                     <div id="div10"> <p><?php the_field('text6_7');?></p></div>
+                     </div>
+                     </div>
+
+        </div>
+        </section>
 
 
+        <section class="section-8">
+                  <div class="part8">
+
+                      <h1><?php the_field('titre_8');?></h1>
+
+                      <div id="block">
+         <div id="part1_8">
+          <img  class="image" src="<?php echo get_template_directory_uri(); ?>/assets/img/chat7.jpg">
+           <h3><?php the_field('text1_8');?></h3>
+           <p><?php the_field('text2_8');?></p>
+         </div>
+         <div id="part2_8">
+          <img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat1.jpg">
+           <h3><?php the_field('text3_8');?></h3>
+           <p><?php the_field('text4_8');?></p>
+         </div>
+         <div id="part3_8">
+          <img class="image" src="<?php echo get_template_directory_uri(); ?>/assets/img/chat2.jpg">
+           <h3><?php the_field('text5_8');?></h3>
+           <p><?php the_field('text6_8');?></p>
+         </div>
+           <div id="part4_8">
+          <img class="image"  src="<?php echo get_template_directory_uri(); ?>/assets/img/chat3.jpg">
+           <h3><?php the_field('text7_8');?></h3>
+           <p><?php the_field('text8_8');?></p>
+         </div>
+       </div>
+
+            </div>
+           </section>
 
 
 
