@@ -198,7 +198,15 @@ if ( have_posts() ) {
            </section>
 
 
+           <section class="section-9">
+                     <div id="part9">
 
+                       <?php
+                         wp_nav_menu( array('theme_location' => 'nav_main') );
+                       ?>
+
+               </div>
+              </section>
 
 
 

@@ -361,3 +361,24 @@ grid-template-areas:
   display: flex;
 
 }
+
+#part9{
+  background-color: black;
+  color: white;
+}
+
+#part9  ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#part9 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+#part9 nav{
+
+    margin-left: auto;
+}
